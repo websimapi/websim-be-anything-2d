@@ -22,16 +22,13 @@
       <input type="text" id="prompt" name="prompt" placeholder="e.g., a brave knight riding a giant snail">
       <button id="create-button" type="button">Create</button>
     </div>
-    <!-- Error Message Area -->
-    <div id="error-message" style="display: none; color: #D8000C; background-color: #FFD2D2; border: 1px solid; margin: 10px 0px; padding: 10px; border-radius: 3px;"></div>
-    <!-- Loading Indicator Area -->
+    <div id="error-message" style="display: none; width: 100%; max-width: 600px; box-sizing: border-box; text-align: center; font-size: 0.95em;"></div>
     <div id="loading-indicator" style="display: none;">
       <p>Generating character...</p>
       <div class="spinner"></div>
     </div>
-    <!-- Scene Container -->
     <div id="scene-container">
-        <!-- Canvas will be added here by Three.js -->
+        <!-- Canvas will be added here -->
     </div>
     <p class="instructions">Click in the scene to move your character!</p>
   </div>
